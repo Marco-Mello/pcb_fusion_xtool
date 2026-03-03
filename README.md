@@ -38,11 +38,11 @@ Após finalizar o layout da PCB:
 
 1. Selecione os layer a serem exportados
  
-<img src="imgs/0.png" style="width: 50%; height: auto;">
+<img src="imgs/0.png" style="width: 75%; height: auto;">
 
 2. Clique em imprimir, deixa em escala *1:1*, selecione a opção **Black** e salve seu arquivo .pdf.
    
-<img src="imgs/1.png" style="width: 50%; height: auto;">
+<img src="imgs/1.png" style="width: 75%; height: auto;">
 
 ---
 
@@ -52,24 +52,24 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 1. Ajuste o tamanho da página para o tamanho da PCB
 
-<img src="imgs/2.png" style="width: 50%; height: auto;">
+<img src="imgs/2.png" style="width: 75%; height: auto;">
    
 2. Selecione todas as trilhas (CTRL + A), clique em Objetvo > Preenchimento e Contorno:
     Insira **Preenchimento** e **Contorno**, ambos na cor **branco**, conforme a imagem abaixo:
 
-   <img src="imgs/3.png" style="width: 50%; height: auto;">
+   <img src="imgs/3.png" style="width: 75%; height: auto;">
 
 3. Selecione a ferramente Retângulo na cor **PRETO** e cubra toda a página, após isso clique no botão **Enviar a seleção para a base**
 
-<img src="imgs/4.png" style="width: 50%; height: auto;">
+<img src="imgs/4.png" style="width: 75%; height: auto;">
 
 4. Remova elementos desnecessários
 
-<img src="imgs/5.png" style="width: 50%; height: auto;">
+<img src="imgs/5.png" style="width: 75%; height: auto;">
 
 5. Selecione toda a página e clique em Caminho > Converter Contorno em Caminhos
 
-<img src="imgs/6.png" style="width: 50%; height: auto;">
+<img src="imgs/6.png" style="width: 75%; height: auto;">
 
 6. Salve o arquivo em formato .svg
 
@@ -79,15 +79,15 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 1. Abra o software da xTool e importe o arquivo .svg
 
-<img src="imgs/xtool_0.png" style="width: 50%; height: auto;">
+<img src="imgs/xtool_0.png" style="width: 75%; height: auto;">
 
 2. Clique em **Subtact**
 
-<img src="imgs/xtool_1.png" style="width: 50%; height: auto;">
+<img src="imgs/xtool_1.png" style="width: 75%; height: auto;">
 
 3. Caso a gravação seja do layter BOTTOM, será necessário espelhar as trilhas, após isso entre com os parâmetros de Engrave (Gravação)
 
-<img src="imgs/xtool_2.png" style="width: 50%; height: auto;">
+<img src="imgs/xtool_2.png" style="width: 75%; height: auto;">
 
 ---
 
