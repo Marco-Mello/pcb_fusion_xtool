@@ -1,4 +1,4 @@
-# Fabricação de PCB com xTool F1 Ultra usando Autodesk Fusion
+<img width="1920" height="1020" alt="xtool_2" src="https://github.com/user-attachments/assets/b1c180ea-f90c-4cfb-ad08-f8af7694d7c3" /># Fabricação de PCB com xTool F1 Ultra usando Autodesk Fusion
 
 ## 📌 Visão Geral
 
@@ -40,7 +40,7 @@ Após finalizar o layout da PCB:
  
 <img src="imgs/0.png" style="width: 50%; height: auto;">
 
-3. Clique em imprimir, deixa em eescala 1:1, selecione a opção **Black** e salve seu arquivo .pdf.
+2. Clique em imprimir, deixa em escala *1:1*, selecione a opção **Black** e salve seu arquivo .pdf.
    
 <img src="imgs/1.png" style="width: 50%; height: auto;">
 
@@ -50,28 +50,44 @@ Após finalizar o layout da PCB:
 
 Abra o arquivo **.PDF** no Inkscape e siga:
 
-1. Ajuste o tamanho da página para 
-   - `Path → Object to Path`
-2. Ajuste a escala se necessário (confira com régua)
-3. Inverta cores se necessário
-4. Remova elementos desnecessários
-5. Exporte como **.SVG**
+1. Ajuste o tamanho da página para o tamanho da PCB
 
-💡 Dica: use apenas preto (#000) para áreas que serão gravadas
+<img src="imgs/2.png" style="width: 50%; height: auto;">
+   
+2. Selecione todas as trilhas (CTRL + A), clique em Objetvo > Preenchimento e Contorno:
+    Insira **Preenchimento** e **Contorno**, ambos na cor **branco**, conforme a imagem abaixo:
+
+   <img src="imgs/3.png" style="width: 50%; height: auto;">
+
+3. Selecione a ferramente Retângulo na cor **PRETO** e cubra toda a página, após isso clique no botão **Enviar a seleção para a base**
+
+<img src="imgs/4.png" style="width: 50%; height: auto;">
+
+4. Remova elementos desnecessários
+
+<img src="imgs/5.png" style="width: 50%; height: auto;">
+
+5. Selecione toda a página e clique em Caminho > Converter Contorno em Caminhos
+
+<img src="imgs/6.png" style="width: 50%; height: auto;">
+
+6. Salve o arquivo em formato .svg
 
 ---
 
 ## 🧩 Etapa 3: Configuração da máquina no xTool
 
-1. Abra o software da xTool
-2. Importe o arquivo **.SVG**
-3. Configure:
-   - Tipo: gravação (engrave)
-   - Potência: ajustar conforme testes
-   - Velocidade: depende do material
+1. Abra o software da xTool e importe o arquivo .svg
 
-4. Posicione a placa corretamente
-5. Faça um teste antes da execução final
+<img src="imgs/xtool_0.png" style="width: 50%; height: auto;">
+
+2. Clique em **Subtact**
+
+<img src="imgs/xtool_1.png" style="width: 50%; height: auto;">
+
+3. Caso a gravação seja do layter BOTTOM, será necessário espelhar as trilhas, após isso entre com os parâmetros de Engrave (Gravação)
+
+<img src="imgs/xtool_2.png" style="width: 50%; height: auto;">
 
 ---
 
@@ -79,13 +95,11 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 A xTool F1 Ultra **não é ideal para furação de PCBs**, então:
 
-- Utilize furadeira de bancada **ou**
-- Mini retífica (tipo Dremel)
+- Utilize furadeira de bancada **ou** Perfurador de placa de circuito impresso
 
 Após isso:
 
 - Lixe levemente a superfície
-- Limpe com álcool isopropílico
 
 ---
 
