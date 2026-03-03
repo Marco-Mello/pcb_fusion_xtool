@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 
-Este tutorial descreve o processo completo para fabricação de placas de circuito impresso (PCB) utilizando a máquina **xTool F1 Ultra** em conjunto com o **Autodesk Fusion**.
+Este tutorial descreve o processo completo de fabricação de placas de circuito impresso (PCB) utilizando a máquina **xTool F1 Ultra** em conjunto com o **Autodesk Fusion**.
 
 O objetivo é demonstrar um fluxo prático para prototipagem rápida de PCBs por **gravação a laser**, desde o design até o acabamento final.
 
@@ -11,7 +11,7 @@ O objetivo é demonstrar um fluxo prático para prototipagem rápida de PCBs por
 ## 🛠️ Materiais Necessários
 
 - Placa de cobre (fenolite)
-- Máquina Laser xTool F1 Ultra
+- Máquina a laser xTool F1 Ultra
 - Lixa fina ou esponja abrasiva
 
 ---
@@ -36,11 +36,11 @@ O objetivo é demonstrar um fluxo prático para prototipagem rápida de PCBs por
 
 Após finalizar o layout da PCB:
 
-1. Selecione os layer a serem exportados
+1. Selecione as camadas (layers) a serem exportadas
  
 <img src="imgs/0.png" style="width: 75%; height: auto;">
 
-2. Clique em imprimir, deixa em escala *1:1*, selecione a opção **Black** e salve seu arquivo .pdf.
+2. Clique em imprimir, deixe a escala em *1:1*, selecione a opção **Black** e salve o arquivo em formato .pdf
    
 <img src="imgs/1.png" style="width: 75%; height: auto;">
 
@@ -54,12 +54,13 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 <img src="imgs/2.png" style="width: 75%; height: auto;">
    
-2. Selecione todas as trilhas (CTRL + A), clique em Objetvo > Preenchimento e Contorno:
-    Insira **Preenchimento** e **Contorno**, ambos na cor **branco**, conforme a imagem abaixo:
+2. Selecione todas as trilhas (CTRL + A), clique em **Objeto > Preenchimento e Contorno**  
+   Insira **Preenchimento** e **Contorno**, ambos na cor **branca**, conforme a imagem abaixo:
 
-   <img src="imgs/3.png" style="width: 75%; height: auto;">
+<img src="imgs/3.png" style="width: 75%; height: auto;">
 
-3. Selecione a ferramente Retângulo na cor **PRETO** e cubra toda a página, após isso clique no botão **Enviar a seleção para a base**
+3. Selecione a ferramenta Retângulo na cor **preta** e cubra toda a página.  
+   Após isso, clique no botão **Enviar a seleção para a base**
 
 <img src="imgs/4.png" style="width: 75%; height: auto;">
 
@@ -67,11 +68,11 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 <img src="imgs/5.png" style="width: 75%; height: auto;">
 
-5. Selecione toda a página e clique em Caminho > Converter Contorno em Caminhos
+5. Selecione toda a página e clique em **Caminho > Converter contorno em caminhos**
 
 <img src="imgs/6.png" style="width: 75%; height: auto;">
 
-6. Salve o arquivo em formato .svg
+6. Salve o arquivo no formato .svg
 
 ---
 
@@ -81,11 +82,12 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 <img src="imgs/xtool_0.png" style="width: 75%; height: auto;">
 
-2. Clique em **Subtact**
+2. Clique em **Subtract**
 
 <img src="imgs/xtool_1.png" style="width: 75%; height: auto;">
 
-3. Caso a gravação seja do layter BOTTOM, será necessário espelhar as trilhas, após isso entre com os parâmetros de Engrave (Gravação)
+3. Caso a gravação seja do layer **BOTTOM**, será necessário espelhar as trilhas.  
+   Após isso, insira os parâmetros de **Engrave (gravação)**
 
 <img src="imgs/xtool_2.png" style="width: 75%; height: auto;">
 
@@ -95,7 +97,7 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 A xTool F1 Ultra **não é ideal para furação de PCBs**, então:
 
-- Utilize furadeira de bancada **ou** Perfurador de placa de circuito impresso
+- Utilize uma furadeira de bancada **ou** um perfurador de placa de circuito impresso
 
 Após isso:
 
