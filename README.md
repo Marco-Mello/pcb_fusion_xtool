@@ -1,4 +1,4 @@
-<img width="1920" height="1020" alt="xtool_2" src="https://github.com/user-attachments/assets/b1c180ea-f90c-4cfb-ad08-f8af7694d7c3" /># Fabricação de PCB com xTool F1 Ultra usando Autodesk Fusion
+# Fabricação de PCB com xTool F1 Ultra usando Autodesk Fusion
 
 ## 📌 Visão Geral
 
