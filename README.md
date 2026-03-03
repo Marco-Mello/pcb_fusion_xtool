@@ -37,11 +37,12 @@ O objetivo é demonstrar um fluxo prático para prototipagem rápida de PCBs por
 Após finalizar o layout da PCB:
 
 1. Selecione os layer a serem exportados
-<div style="text-align: center;">
-   <img src="imgs/0.png" style="width: 50%; height: auto;">
-</div>
+ 
+<img src="imgs/0.png" style="width: 50%; height: auto;">
 
 3. Clique em imprimir, deixa em eescala 1:1, selecione a opção **Black** e salve seu arquivo .pdf.
+   
+<img src="imgs/1.png" style="width: 50%; height: auto;">
 
 ---
 
