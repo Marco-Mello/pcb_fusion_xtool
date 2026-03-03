@@ -37,7 +37,8 @@ O objetivo é demonstrar um fluxo prático para prototipagem rápida de PCBs por
 Após finalizar o layout da PCB:
 
 1. Selecione os layer a serem exportados
-2. Clique em imprimir, deixa em eescala 1:1, selecione a opção **Black** e salve seu arquivo .pdf.
+![0](imgs/0.png)
+3. Clique em imprimir, deixa em eescala 1:1, selecione a opção **Black** e salve seu arquivo .pdf.
 
 ---
 
