@@ -74,7 +74,9 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 <img src="imgs/6.png" style="width: 75%; height: auto;">
 
-7. Salve o arquivo no formato .svg
+7. Selecione todos os furos e INSIRA Contorno e coloque vermelho no máximo
+
+8. Salve o arquivo no formato .svg
 
 ---
 
