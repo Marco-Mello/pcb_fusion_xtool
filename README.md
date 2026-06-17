@@ -68,11 +68,13 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 <img src="imgs/5.png" style="width: 75%; height: auto;">
 
-5. Selecione toda a página e clique em **Caminho > Converter contorno em caminhos**
+5. Selecione toda a página, exceto o quadrado PRETO e adicione CONTORNO e coloque tudo no máximo BRANCO**
+
+6. Selecione toda a página e clique em **Caminho > Converter contorno em caminhos**
 
 <img src="imgs/6.png" style="width: 75%; height: auto;">
 
-6. Salve o arquivo no formato .svg
+7. Salve o arquivo no formato .svg
 
 ---
 
