@@ -74,9 +74,12 @@ Abra o arquivo **.PDF** no Inkscape e siga:
 
 <img src="imgs/6.png" style="width: 75%; height: auto;">
 
-7. Selecione todos os furos e INSIRA Contorno e coloque vermelho no máximo
+7. Selecione todos os furos e INSIRA Contorno e coloque vermelho no máximo, agrupe-os
 
-8. Salve o arquivo no formato .svg
+8. Salve o arquivo no formato .svg com o prefixo TRILHAS_
+
+9. Delete todas as trilhas e mantenha somente os furos e salve como FUROS_ 
+    OBS: Você pode usar localizar/substituir para separa os furos
 
 ---
 
